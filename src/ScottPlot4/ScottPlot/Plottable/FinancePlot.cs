@@ -102,7 +102,7 @@ namespace ScottPlot.Plottable
         public void AddRange(OHLC[] ohlcs)
         {
             if (ohlcs is null)
-                throw new ArgumentNullException();
+                throw new ArgumentNullException(nameof(ohlcs));
 
             foreach (var ohlc in ohlcs)
                 if (ohlc is null)

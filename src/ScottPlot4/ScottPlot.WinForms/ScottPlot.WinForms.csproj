@@ -4,6 +4,10 @@
     <TargetFrameworks>net6.0-windows;net5.0-windows;net472</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
     <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Version>4.1.43</Version>
+    <AssemblyVersion>4.1.43.1</AssemblyVersion>
+    <FileVersion>4.1.43.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
